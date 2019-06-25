@@ -2438,31 +2438,6 @@
         },
         "version": "2.7.3.0"
       },
-      "stack-details": {
-          "repo": {
-            "stack": {
-              "amazonlinux2": "http://public-repo-1.hortonworks.com/HDF/amazonlinux2/3.x/updates/3.4.1.1",
-              "repoid": "HDF-3.4",
-              "repository-version": "3.4.1.1-4",
-              "vdf-url": "http://public-repo-1.hortonworks.com/HDF/amazonlinux2/3.x/updates/3.4.1.1/HDF-3.4.1.1-4.xml"
-            },
-            "util": {
-              "amazonlinux2": "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.22/repos/amazonlinux2",
-              "repoid": "HDP-UTILS-1.1.0.22"
-            }
-          },
-          "version": "3.4.1.1",
-          "mpacks": [
-            {
-              "mpack_url": "http://public-repo-1.hortonworks.com/HDF/centos7/3.x/updates/3.4.1.1/tars/hdf_ambari_mp/hdf-ambari-mpack-3.4.1.1-4.tar.gz"
-            }
-          ]
-        },
-        "repo": {
-          "amazonlinux2": "http://public-repo-1.hortonworks.com/ambari/amazonlinux2/2.x/updates/2.7.3.0"
-        },
-        "version": "2.7.3.0"
-      },
       {
         "date": "2019-01-15",
         "description": "Official Cloudbreak image",
