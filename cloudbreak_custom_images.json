@@ -2354,22 +2354,22 @@
           "ambari": "2.7.3.0",
           "salt": "2017.7.5",
           "salt-bootstrap": "0.13.0-2018-05-03T07:39:07",
-          "stack": "2.6.5.0"
+          "stack": "3.3.1.0"
         },
         "stack-details": {
           "repo": {
             "stack": {
-              "redhat7": "http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.6.5.0",
-              "repoid": "HDP-2.6",
-              "repository-version": "2.6.5.0-292",
-              "vdf-url": "http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.6.5.0/HDP-2.6.5.0-292.xml"
+              "redhat7": "http://public-repo-1.hortonworks.com/HDF/centos7/3.x/updates/3.3.1.0",
+              "repoid": "HDF-3.3",
+              "repository-version": "3.3.1.0-10",
+              "vdf-url": "http://public-repo-1.hortonworks.com/HDF/centos7/3.x/updates/3.3.1.0/HDF-3.3.1.0-10.xml"
             },
             "util": {
               "redhat7": "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.22/repos/centos7",
               "repoid": "HDP-UTILS-1.1.0.22"
             }
           },
-          "version": "2.6.5.0",
+          "version": "3.3.1.0",
           "mpacks": [
             {
               "mpack_url": "http://public-repo-1.hortonworks.com/HDF/centos7/3.x/updates/3.3.1.0/tars/hdf_ambari_mp/hdf-ambari-mpack-3.3.1.0-10.tar.gz"
@@ -4741,22 +4741,22 @@
           "ambari": "2.7.3.0",
           "salt": "2017.7.5",
           "salt-bootstrap": "0.13.0-2018-05-03T07:39:07",
-          "stack": "3.1.0.0"
+          "stack": "2.6.5.0"
         },
         "stack-details": {
           "repo": {
             "stack": {
-              "amazonlinux2": "http://public-repo-1.hortonworks.com/HDP/amazonlinux2/3.x/updates/3.1.0.0",
-              "repoid": "HDP-3.1",
-              "repository-version": "3.1.0.0-78",
-              "vdf-url": "http://public-repo-1.hortonworks.com/HDP/amazonlinux2/3.x/updates/3.1.0.0/HDP-3.1.0.0-78.xml"
+              "amazonlinux2": "http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.6.5.0",
+              "repoid": "HDP-2.6",
+              "repository-version": "2.6.5.0-292",
+              "vdf-url": "http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.6.5.0/HDP-2.6.5.0-292.xml"
             },
             "util": {
               "amazonlinux2": "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.22/repos/amazonlinux2",
               "repoid": "HDP-UTILS-1.1.0.22"
             }
           },
-          "version": "3.1.0.0"
+          "version": "2.6.5.0"
         },
         "repo": {
           "amazonlinux2": "http://public-repo-1.hortonworks.com/ambari/amazonlinux2/2.x/updates/2.7.3.0"
