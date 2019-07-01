@@ -1,0 +1,69 @@
+{
+  "images": {
+    "base-images": [
+      {
+        "date": "2019-07-01",
+        "description": "Cloudbreak official base proxy image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-09fbdf99d44912dbe"
+          }
+        },
+        "os": "amazonlinux",
+        "os_type": "redhat6",
+        "uuid": "0829f98f-830b-47ec-95e0-6e88969698b1"
+      },
+      {
+        "date": "2019-06-28",
+        "description": "Cloudbreak official base image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-06be352cbf1f40a47"
+          }
+        },
+        "os": "amazonlinux",
+        "os_type": "redhat6",
+        "uuid": "f8e71b4b-8446-408e-bd5c-f40a951d6854"
+      },
+      {
+        "date": "2019-06-27",
+        "description": "Cloudbreak official base proxy image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-01527cadd4469991c"
+          }
+        },
+        "os": "amazonlinux2",
+        "os_type": "amazonlinux2",
+        "uuid": "1677a11c-ff58-49c0-ae9c-7918197575c8"
+      },
+      {
+        "date": "2019-06-25",
+        "description": "Cloudbreak official base image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-0140980e71f358365"
+          }
+        },
+        "os": "amazonlinux2",
+        "os_type": "amazonlinux2",
+        "uuid": "3ce442b5-3af9-46d8-97d5-687b3877582f"
+      }
+    ]
+},
+  "versions": {
+    "cloudbreak": [
+      {
+        "images": [
+          "0829f98f-830b-47ec-95e0-6e88969698b1",
+          "f8e71b4b-8446-408e-bd5c-f40a951d6854",
+          "1677a11c-ff58-49c0-ae9c-7918197575c8",
+          "3ce442b5-3af9-46d8-97d5-687b3877582f"
+        ],
+        "versions": [
+          "2.9.1"
+        ]
+      }
+    ]
+  }
+}
