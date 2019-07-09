@@ -2,6 +2,30 @@
   "images": {
     "base-images": [
       {
+        "date": "2019-07-09",
+        "description": "Cloudbreak official rhel7 base proxy image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-0e569c4777e3d055a"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "bae05dd5-605b-44de-9870-862689b772ec"
+      },
+      {
+        "date": "2019-07-09",
+        "description": "Cloudbreak official rhel7 base no proxy image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-0c4733b3bf8d89e88"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "bef279d6-6349-4805-8ae5-861d2d7bd133"
+      },
+      {
         "date": "2019-07-01",
         "description": "Cloudbreak official base proxy image",
         "images": {
@@ -58,7 +82,9 @@
           "0829f98f-830b-47ec-95e0-6e88969698b1",
           "f8e71b4b-8446-408e-bd5c-f40a951d6854",
           "1677a11c-ff58-49c0-ae9c-7918197575c8",
-          "3ce442b5-3af9-46d8-97d5-687b3877582f"
+          "3ce442b5-3af9-46d8-97d5-687b3877582f",
+          "bef279d6-6349-4805-8ae5-861d2d7bd133",
+          "bae05dd5-605b-44de-9870-862689b772ec"
         ],
         "versions": [
           "2.9.1"
