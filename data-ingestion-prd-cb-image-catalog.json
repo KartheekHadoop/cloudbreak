@@ -12,6 +12,18 @@
         "os": "redhat7",
         "os_type": "redhat7",
         "uuid": "d172aa80-2ba8-422c-8a52-a5b4afe7aa3e"
+      },
+      {
+        "date": "2019-07-08",
+        "description": "Cloudbreak official amazonlinux2 base no proxy image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-07f211eba30e1c396"
+          }
+        },
+        "os": "amazonlinux2",
+        "os_type": "amazonlinux2",
+        "uuid": "4a5600b9-8d0b-43d7-a0e8-04f9299a6030"
       }
     ]
   },
@@ -19,6 +31,7 @@
     "cloudbreak": [
       {
         "images": [
+          "4a5600b9-8d0b-43d7-a0e8-04f9299a6030",
           "d172aa80-2ba8-422c-8a52-a5b4afe7aa3e"
         ],
         "versions": [
