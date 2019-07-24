@@ -6,7 +6,7 @@
         "description": "Cloudbreak official rhel7 base no proxy image",
         "images": {
           "aws": {
-            "us-east-1": "ami-0e83c550c2b4347f1"
+            "us-east-1": "ami-06ecf0bea779fd686"
           }
         },
         "os": "redhat7",
